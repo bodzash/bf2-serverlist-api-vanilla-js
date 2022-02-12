@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "SF Spy",
+    "description": "Get notified if there are players playing BF2: Special Forces!",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    }
+}
