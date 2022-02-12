@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: blueviolet;
+    color: white;
+}
+
+.header-wrapper > * {
+    margin: 0 2rem;
+}
+
+.meme-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    width: 80%;
+    margin: 3rem auto;
+}
+
+.meme-wrapper > * {
+    margin: .75rem 0;
+}
+
+.inp-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inp1, .inp2 {
+    width: 40%;
+    padding: 1rem;
+    font-size: 1.3rem;
+    border-radius: 1.2rem;
+    outline: 0;
+}
+
+.generate-btn {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.3rem;
+    text-align: center;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 1.2rem;
+}
+
+.sub {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
+
+.sub > button {
+    padding: 1rem;
+}
